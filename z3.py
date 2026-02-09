@@ -1,4 +1,7 @@
-n = int(input("Введите число(1-10): "))
-print("Таблица умножения:")
-for i in range(1, 10+1):
-    print(n*i)
+result ='YES'
+for i in range(10):
+    n = int(input('Введите 10 чисел (через enter): '))
+    if n % 2 != 0:
+        result = 'NO'
+
+print(result)
